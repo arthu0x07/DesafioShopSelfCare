@@ -1,0 +1,138 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    background-color: whitesmoke;
+    font-family: Lato;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {}
+
+.header-container {}
+
+.header-container-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 4rem;
+}
+
+.container-logo {
+    display: flex;
+    align-items: center;
+    font-size: 1.5rem;
+}
+
+.container-logo i {
+    margin: 0rem 0.5rem;
+}
+
+.container-logo h2 {
+    margin: 0rem 0.5rem;
+}
+
+.header-container-icons {}
+
+.header-container-icons i {
+    font-size: 1.5rem;
+    margin: 0rem 0.8rem;
+    color: #5CA720;
+    padding: 2px;
+    border-bottom: 2px solid transparent;
+}
+
+.header-container-icons i:hover {
+    border-bottom: 2px solid #5CA720;
+}
+
+/* seção banner */
+
+.header-container-banner {}
+
+.header-container-banner img {
+    width: 100%;
+    object-fit: cover;
+}
+
+/* seção main */
+
+.main-conteiner {}
+
+.main-section1-bar {
+    padding: 1.5rem 3rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 600;
+    font-size: 1.5rem;
+    border-bottom: 1px solid #A5A1A1;
+}
+
+.main-section2-cards {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    padding: 1rem 3.5rem;
+    font-size: 1.5rem;
+}
+
+.conteiner-card {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 30%;
+    min-width: 300px;
+}
+
+.contei {
+    margin: 30px auto;
+}
+
+.conteiner-card img {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+}
+
+
+/* Seção rodape */
+
+.container-footer{
+    height: 20vh;
+    background-color: #F9F9F9;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1rem 5rem;
+    /* 30 40 30 */
+}
+
+.footer-section1{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-section1 a{
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+    text-decoration: none;
+    color: black;
+    font-weight: 900;
+}
+
+.footer-section2{
+    width: 50%;
+}
+
+.footer-section3{
+    width: 20%;
+}
+
+.footer-section4{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
