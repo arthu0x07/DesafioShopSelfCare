@@ -1,4 +1,6 @@
-<br />
+<h1 align="center"> Confira a versão final -> <a href="https://arthu0x07.github.io/ShopSelfCareWebPage/" target="_blank">ShopSelfCareWebPage</a>
+<br /><br /><br />
+
 <p align="center">
    <img src="design/desktop.png" width="380" height="600">
    <h3 align="center">SelfCare</h3>
